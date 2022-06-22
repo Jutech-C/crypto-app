@@ -1,0 +1,45 @@
+body{
+  background-color:black
+}
+.container{
+  display: flex;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    left: 20px;
+    top: 32px; 
+}
+.head{
+  margin-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ .headContent{
+  color:rgb(116, 231, 235);
+} 
+.row{
+margin-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container{
+  width: 1250px;
+}
+.image{
+  width: 50px;
+}
+.search{
+  display: grid;
+  place-items: center;
+ color: rgb(116, 231, 235);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+.search h1{
+font-size: 35px;
+}
